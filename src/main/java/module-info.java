@@ -8,5 +8,6 @@ module org.example.ejercicio1911_bustelo {
 
 
     opens org.example.ejercicio1911_bustelo;
+    opens org.example.ejercicio1911_bustelo.models;
     exports org.example.ejercicio1911_bustelo;
 }

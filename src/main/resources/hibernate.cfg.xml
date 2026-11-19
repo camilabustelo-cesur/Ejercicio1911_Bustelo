@@ -23,7 +23,7 @@
         <property name="hibernate.hbm2ddl.auto">validate</property>
 
         <!-- Entidades mapeadas -->
-        <mapping class="org.example.models.Equipo"/>
+        <mapping class="org.example.ejercicio1911_bustelo.models.Equipo"/>
 
     </session-factory>
 </hibernate-configuration>
