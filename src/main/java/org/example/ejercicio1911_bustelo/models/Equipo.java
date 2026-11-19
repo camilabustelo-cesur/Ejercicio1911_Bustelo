@@ -1,11 +1,13 @@
 package org.example.ejercicio1911_bustelo.models;
 
 
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
 
-@Entity //Es un objeto que persiste en una base de datos. Lo caracteriza que tenga un identificador único, que es la clave primaria de la tabla.
+@Entity
+//Es un objeto que persiste en una base de datos. Lo caracteriza que tenga un identificador único, que es la clave primaria de la tabla.
 @Table(name = "Equipo") //Se indica el nombre de la tabla en la base de datos que corresponde a esta entidad.
 public class Equipo {
    @Id
